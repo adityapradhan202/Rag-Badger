@@ -1,0 +1,7 @@
+__pycache__
+rag_badger.egg-info
+venv/
+sample_data/
+*.bin
+*.sqlite3
+chroma_database/

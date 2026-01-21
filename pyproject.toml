@@ -1,0 +1,25 @@
+[project]
+name = "rag-badger"
+version = "0.0.1"
+authors = [
+  { name="Aditya Pradhan" },
+]
+description = "Open source toolkit for RAG evaluation"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+  "langchain>=1.0.2",
+  "langchain_ollama",
+  "scikit-learn",
+  "langchain-core>=1.2.7,<2.0.0",
+  "langgraph>=1.0.2,<1.1.0",
+  "pydantic>=2.7.4,<3.0.0",
+]
+
+
