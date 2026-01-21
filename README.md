@@ -5,14 +5,23 @@
 
 <p align="center"><b>Rag-Badger is a minimal and effective open source toolkit for evaluating  Retrieval Augmented Generation(RAG) systems.</b><br>It focuses on the core signals that matter while judging RAG quality.</p>
 
-### Key Features:
+## Key Features:
 Rag-Badger provides the following evaluation metrics:
 1. **Faithfulness:** To what extent the LLM is relying on the retrieved context to generate the answer?
 2. **Factual correctness:** How close the generated answer is to ground truth or fact?
 3. **Answer relevance:** How relevant the answer is with respect to the question? Or does the answer actually address the user query?
 4. **Context relevance:** How relevant the retrieved context is with respect to the question?
 
-### Quick Start:
+## Installation steps:
+**Get the distribution artifacts and source distributions in -> [Releases](https://github.com/adityapradhan202/Rag-Badger/releases)**
+```
+pip install rag_badger-0.0.1-py3-none-any.whl
+```
+> It is highly recommended to install this package inside a virtual enviroment.
+Donwload the distribution artificat in your project folder. **Activate the venv** and execute the pip command mentioned above. It will succesfully install the package inside your virtual environment and then you can delete this distribution artifact.
+
+## Quick Start:
+
 **Some instructions:**  
 1. Recommended: For the judge LLM use a model with atleast 7 billion parameters.
 2. So far this toolkit has been tested with Ollama's local models only. So it is recommended to use Ollama's models for the evaluation.
@@ -65,6 +74,3 @@ Each of the four functions which are mentioned in the above code snippet return 
     'individual_scores':[0.5, 0.5, 1.0, 0.0, 1.0, 1.0, 1.0]
 }
 ```
-
-### License
-**This repository is licensed under [MIT LICENSE](./LICENSE).**
