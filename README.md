@@ -80,7 +80,7 @@ Each of the four functions which are mentioned in the above code snippet return 
 ## Observed Metric stability:
 The code given in the [basic.py](./examples/basic_usage.py) builds a vector database using a custom sample dataset.
 
-The script was excuted four times and evaluation metrics of each run were recorded. For the testing purpose a smaller dataset was created. The dataset had only 12 questions. However the results were remarkably consistent. **That proves that it will function properly and will be more precise and consistent in case of 20 or more than 20 questions, provided that a bigger and stronger LLM is used for judgement.**
+The script was excuted four times and evaluation metrics of each run were recorded. For the testing purpose a smaller dataset was created. The dataset had only 12 questions. However the results were remarkably consistent. **This proves that it will function properly and will be more precise and consistent in case of 20 or more than 20 questions, provided that a bigger and stronger LLM is used for judgement.**
 |Runs|Faitfulness|Factual correctness|Answer relevance|Context relevance|
 |----|-----------|-------------------|----------------|-----------------|
 |1|0.4166|0.5|0.9583|0.33|
