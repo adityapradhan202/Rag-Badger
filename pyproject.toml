@@ -18,7 +18,7 @@ classifiers = [
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 dependencies = [
-  "langchain>=1.0.2",
+  "langchain>=1.2.0",
   "langchain_ollama",
   "scikit-learn",
   "langchain-core>=1.2.7,<2.0.0",
