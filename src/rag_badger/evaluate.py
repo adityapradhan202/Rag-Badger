@@ -3,7 +3,6 @@ from langchain_ollama import ChatOllama
 from langchain_ollama import OllamaEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from sklearn.metrics.pairwise import cosine_similarity
-from pathlib import Path
 
 # Relative import if we run this script directly this will give error
 # Import evaluate.py or Evaluate class from it outside the package, it will work

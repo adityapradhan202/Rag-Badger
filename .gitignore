@@ -5,3 +5,4 @@ sample_data/
 *.bin
 *.sqlite3
 chroma_database/
+dist/
